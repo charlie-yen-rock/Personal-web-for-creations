@@ -1,0 +1,42 @@
+* {
+	font-family: "Noto Sans TC";
+	border: 1px dotted red;
+}
+h1 {
+	font: size 2rem;
+}
+h2 {
+	font-size: 1.5rem;
+}
+h3,
+h4.h5,
+h6 {
+	font-size: 1.2rem;
+}
+p,
+li,
+a {
+	font-size: 1rem;
+}
+
+nav {
+	background-color: rgb(14, 32, 49);
+	padding: 1rem 1rem;
+}
+nav p {
+	display: inline;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul {
+	margin-right: 1rem;
+
+	display: inline;
+}
+nav ul li {
+	padding: 1rem 1rem;
+	display: inline;
+}
