@@ -1,6 +1,6 @@
 * {
 	font-family: "Noto Sans TC";
-	border: 1px dotted red;
+	/*border: 1px dotted red;*/
 }
 h1 {
 	font: size 2rem;
@@ -21,22 +21,25 @@ a {
 
 nav {
 	background-color: rgb(14, 32, 49);
-	padding: 1rem 1rem;
-}
-nav p {
-	display: inline;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 nav a {
 	color: white;
 	text-decoration: none;
 }
-
+nav p a {
+	padding-left: 2rem;
+	font-size: 1.5rem;
+}
 nav ul {
-	margin-right: 1rem;
-
-	display: inline;
+	list-style: none;
+	padding-right: 10rem;
+	display: flex;
+	flex-direction: row;
 }
 nav ul li {
-	padding: 1rem 1rem;
-	display: inline;
+	padding: 1rem 1.5rem;
 }
