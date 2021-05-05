@@ -2,6 +2,9 @@
 	font-family: "Noto Sans TC";
 	/*border: 1px dotted red;*/
 }
+body {
+	margin: 0;
+}
 h1 {
 	font: size 2rem;
 }
@@ -25,6 +28,10 @@ nav {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	/*keep showing on screen
+	position: fixed;
+	width: 100%;
+	z-index: 10;*/
 }
 nav a {
 	color: white;
@@ -32,14 +39,21 @@ nav a {
 }
 nav #logo {
 	padding-left: 2rem;
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 nav ul {
 	list-style: none;
+	margin: 0 0;
 	padding-right: 10rem;
 	display: flex;
 	flex-direction: row;
 }
 nav ul li {
-	padding: 1rem 1.5rem;
+	padding: 2rem 1.5rem;
+	width: 4rem;
+	text-align: center;
+}
+
+nav ul li a {
+	font-size: 1.2rem;
 }
