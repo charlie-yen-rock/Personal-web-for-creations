@@ -1,11 +1,24 @@
-.buttonA {
-	width: 208px;
-	padding: 1em 0;
+button {
+	width: 70%;
+	padding: 1rem 0;
+	margin: 1rem;
+	background-color: rgb(47, 172, 255);
+	border-radius: 20px;
+	border-style: none;
+	transition: all 0.3s;
 }
-.buttonB {
-	width: 208px;
-	padding: 1em 0;
+button:hover {
+	background-color: rgb(71, 180, 253);
+	cursor: pointer;
 }
+button:active {
+	background-color: rgb(71, 180, 253);
+}
+a button {
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
 .contentsTitle h1 {
 	text-align: center;
 	font-size: 3rem;
@@ -23,13 +36,29 @@
 }
 .content {
 	margin: 0 0 8rem;
-	padding: 3rem;
+	padding: 0 5rem 3rem;
 	max-width: 45%;
 	text-align: center;
 }
 .content img {
 	height: 100%;
 	width: 100%;
+}
+.content h2 {
+	font-size: 2.5rem;
+	padding: 1em 0 0;
+	margin: 0;
+}
+.content .overView {
+	font-size: 1.5rem;
+	opacity: 70%;
+	padding: 1em 0;
+	margin: 0;
+}
+.content .description {
+	font-size: 1.5rem;
+	padding: 1em 0;
+	margin: 0;
 }
 
 .oddOrder {
