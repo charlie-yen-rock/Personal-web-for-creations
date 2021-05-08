@@ -1,0 +1,13 @@
+.contentsTitle {
+}
+.contentsTitle h1 {
+	text-align: center;
+	font-size: 3rem;
+	padding: 2em 0;
+}
+
+.contents .content {
+	display: grid;
+	grid-template-rows: repeat(5, 1fr);
+	grid-template-columns: auto;
+}
