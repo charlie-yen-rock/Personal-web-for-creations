@@ -2,8 +2,8 @@ button {
 	width: 70%;
 	padding: 1rem 0;
 	margin: 1rem;
-	background-color: rgb(47, 172, 255);
-	border-radius: 20px;
+	background-color: white;
+	border-radius: 70px;
 	border-style: none;
 	transition: all 0.3s;
 }
@@ -45,24 +45,24 @@ a button {
 	width: 100%;
 }
 .content h2 {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	padding: 1em 0 0;
 	margin: 0;
 }
 .content .overView {
 	font-size: 1.5rem;
-	opacity: 70%;
 	padding: 1em 0;
 	margin: 0;
 }
 .content .description {
+	opacity: 70%;
 	font-size: 1.5rem;
 	padding: 1em 0;
 	margin: 0;
 }
 
 .oddOrder {
-	background-color: #ccc;
+	background-color: rgb(167, 181, 185);
 }
 
 .evenOrder {
