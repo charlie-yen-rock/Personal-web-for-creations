@@ -1,0 +1,26 @@
+.contentsTitle {
+	text-align: center;
+	font-size: 3rem;
+	padding: 2em 0;
+	margin: 0 0;
+}
+
+.content {
+	display: grid;
+	grid-template: 1 5/1 2;
+	grid-template-areas: "img img p p p";
+	align-items: center;
+	grid-gap: 30px;
+	margin: auto;
+	width: 60%;
+}
+
+.content img {
+	grid-area: img;
+	border-radius: 480px;
+	width: 80%;
+}
+.content p {
+	grid-area: p;
+	font-size: 1.2rem;
+}
