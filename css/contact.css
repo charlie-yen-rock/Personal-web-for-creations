@@ -1,0 +1,14 @@
+.contents {
+	padding: 3rem;
+}
+
+.content {
+	text-align: center;
+}
+.content h1 {
+	font-size: 3rem;
+}
+.content p,
+.content a {
+	font-size: 1.2rem;
+}
