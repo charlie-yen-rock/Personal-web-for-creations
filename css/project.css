@@ -3,7 +3,7 @@ button {
 	padding: 1rem 0;
 	margin: 1rem;
 	background-color: white;
-	border-radius: 70px;
+	border-radius: 50px;
 	border-style: none;
 	transition: all 0.3s;
 }
@@ -11,9 +11,7 @@ button:hover {
 	background-color: rgb(71, 180, 253);
 	cursor: pointer;
 }
-button:active {
-	background-color: rgb(71, 180, 253);
-}
+
 a button {
 	font-size: 1.5rem;
 	text-decoration: none;
@@ -21,10 +19,10 @@ a button {
 
 .contentsTitle h1 {
 	text-align: center;
+	color: rgb(47, 172, 255);
 	font-size: 3rem;
 	padding: 2em 0;
 	margin: 0 0;
-	background-color: rgb(47, 172, 255);
 }
 
 .contents {
@@ -32,7 +30,7 @@ a button {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding: 9rem 5rem 2rem;
+	padding: 0rem 5rem 2rem;
 }
 .content {
 	margin: 0 0 8rem;
