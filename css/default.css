@@ -22,13 +22,14 @@ a {
 	font-size: 1rem;
 }
 
+/*nav*/
 nav {
 	background-color: rgb(14, 32, 49);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	/*keep showing on screen
+	/*keep showing on screen?
 	position: fixed;
 	width: 100%;
 	z-index: 10;*/
@@ -63,7 +64,7 @@ nav ul li a:hover {
 	color: #4ecdc4;
 }
 
-/* The switch - the box around the slider */
+/*slider*/
 .switch {
 	position: relative;
 	display: inline-block;
@@ -91,7 +92,7 @@ nav ul li a:hover {
 	background-color: #ccc;
 	transition: all 0.4s;
 }
-
+/*the knob*/
 .slider:before {
 	position: absolute;
 	content: "";
@@ -102,11 +103,11 @@ nav ul li a:hover {
 	background-color: rgb(71, 71, 71);
 	transition: 0.4s;
 }
-
+/*change color*/
 input:checked + .slider {
 	background-color: #f8e91b;
 }
-
+/*change position*/
 input:checked + .slider:before {
 	transform: translateX(26px);
 }
