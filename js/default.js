@@ -7,7 +7,7 @@ function lightSwitchOnOff() {
 		document.body.style.backgroundColor = "#111";
 		if (nightModeElements) {
 			for (const element of nightModeElements) {
-				console.log(element);
+				//console.log(element);
 				element.style.color = "white";
 			}
 		}
