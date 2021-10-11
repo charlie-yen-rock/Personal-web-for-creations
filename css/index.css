@@ -22,30 +22,57 @@
 .contents {
 	display: flex;
 	justify-content: space-around;
-	padding: 5rem 0 5rem;
+
+	padding: 5rem 0 0;
 }
 
 .content {
 	text-align: center;
+	height: auto;
+	margin: 0 10%;
 }
 .content h2 {
 	font-size: 2.5rem;
 	text-shadow: -5px 5px 5px rgba(0, 0, 0, 0.3);
 	margin: 0;
-	padding-bottom: 5rem;
+	padding-bottom: 2rem;
 }
-.content img {
-	width: 60%;
+.image {
+	height: 100%;
+}
+.image img {
+	width: 99%;
 	box-shadow: -6px 6px 12px 0px rgba(0, 0, 0, 0.5);
 	transition: all 0.3s;
+	opacity: 100%;
 }
-.content img:hover {
-	width: 61%;
+
+.image a:hover img {
+	width: 100%;
+	opacity: 60%;
+}
+.image a {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+.image a .hoverButton {
+	font-size: 2.5rem;
+	text-decoration: none;
+	position: relative;
+	bottom: 25%;
+	opacity: 0%;
+	transition: all 0.3s;
+}
+.image a:hover > .hoverButton {
+	bottom: 43%;
+	opacity: 100%;
 }
 
 @media only screen and (max-width: 600px) {
 	.contents {
 		flex-direction: column;
+		height: 100%;
 	}
 	.content {
 		padding-bottom: 4rem;
