@@ -28,7 +28,6 @@
 
 .content {
 	text-align: center;
-	height: auto;
 	margin: 0 10%;
 }
 .content h2 {
@@ -39,6 +38,7 @@
 }
 .image {
 	height: 100%;
+	display: flex;
 }
 .image img {
 	width: 99%;
@@ -72,12 +72,14 @@
 @media only screen and (max-width: 600px) {
 	.contents {
 		flex-direction: column;
-		height: 100%;
 	}
 	.content {
 		padding-bottom: 4rem;
 	}
 	.content h2 {
 		padding-bottom: 2rem;
+	}
+	.image a:hover > .hoverButton {
+		bottom: 50%;
 	}
 }
