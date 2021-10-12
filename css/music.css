@@ -23,21 +23,46 @@
 	text-align: center;
 }
 .content h2 {
+	margin: 1rem 0;
 	font-size: 3rem;
 }
 .content p {
 	font-size: 1.2rem;
 }
-.content img {
+.imageGroup img {
 	height: 100%;
 	width: 100%;
 	box-shadow: -5px 5px 5px 1px rgba(0, 0, 0, 0.5);
 	transition: all 0.3s;
 }
-.content img:hover {
+.imageGroup a:hover img {
 	opacity: 70%;
 	cursor: pointer;
 }
+.imageGroup {
+	position: relative;
+}
+.imageGroup a {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.imageGroup a .hoverButton {
+	position: absolute;
+	bottom: 37%;
+	left: 0;
+	right: 0; /*left right :0 是為了置中*/
+	margin: auto;
+	font-size: 2.5rem;
+	text-decoration: none;
+	opacity: 0%;
+	transition: all 0.3s;
+}
+
+.imageGroup a:hover > .hoverButton {
+	opacity: 100%;
+}
+
 @media only screen and (max-width: 770px) and (min-width: 500px) {
 	.content {
 		max-width: 60%;

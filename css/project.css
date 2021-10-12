@@ -8,13 +8,14 @@ button {
 	transition: all 0.3s;
 }
 button:hover {
-	background-color: rgb(71, 180, 253);
+	background-color: rgb(70, 169, 194);
 	cursor: pointer;
 }
 
 a button {
 	font-size: 1.5rem;
 	text-decoration: none;
+	width: 58%;
 }
 
 .contentsTitle h1 {

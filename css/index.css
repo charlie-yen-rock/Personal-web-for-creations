@@ -22,7 +22,6 @@
 .contents {
 	display: flex;
 	justify-content: space-around;
-
 	padding: 5rem 0 0;
 }
 
@@ -36,36 +35,42 @@
 	margin: 0;
 	padding-bottom: 2rem;
 }
+
 .image {
-	height: 66%;
 	display: flex;
+	position: relative;
+	/*.hoverButton使用position: absolute;,在這裡設position: relative;做為錨點*/
+	padding-bottom: 5rem;
 }
 .image img {
 	width: 99%;
 	box-shadow: -6px 6px 12px 0px rgba(0, 0, 0, 0.5);
-	transition: all 0.3s;
 	opacity: 100%;
+	transition: all 0.3s;
+}
+
+.image a {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.image a .hoverButton {
+	position: absolute;
+	bottom: 50%;
+	left: 0;
+	right: 0; /*left right :0 是為了置中*/
+	margin: auto;
+	font-size: 2.5rem;
+	text-decoration: none;
+	opacity: 0%;
+	transition: all 0.3s;
 }
 
 .image a:hover img {
 	width: 100%;
 	opacity: 60%;
 }
-.image a {
-	text-decoration: none;
-	color: black;
-	text-align: center;
-}
-.image a .hoverButton {
-	font-size: 2.5rem;
-	text-decoration: none;
-	position: relative;
-	bottom: 25%;
-	opacity: 0%;
-	transition: all 0.3s;
-}
 .image a:hover > .hoverButton {
-	bottom: 65%;
 	opacity: 100%;
 }
 
@@ -78,11 +83,5 @@
 	}
 	.content h2 {
 		padding-bottom: 2rem;
-	}
-	.image a .hoverButton {
-		bottom: 30%;
-	}
-	.image a:hover > .hoverButton {
-		bottom: 50%;
 	}
 }
