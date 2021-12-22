@@ -1,4 +1,12 @@
-# PERSONAL WEB FOR MY CREATIONS
+# PERSONAL WEB
 
-> This is the code for my personal portfolio website.
-> I will upload some game and music stuffs to this web, check it out!
+## 本專案是什麼?
+
+本專案為我推廣自己作品的網頁平台，作品類型目前有:
+
+- 遊戲創作
+- 音樂創作
+
+## 我的聯絡資訊
+
+email:<7065kami@gmail.com>
